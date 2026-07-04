@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Name Generator - PromptLova</title>
+  <link rel="stylesheet" href="../../css/style.css" />
+  <link rel="stylesheet" href="../../css/header.css" />
+  <link rel="stylesheet" href="../../css/footer.css" />
+  <link rel="stylesheet" href="../../css/tools.css" />
+  <link rel="stylesheet" href="../../css/responsive.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="../../index.html" class="logo">PromptLova</a>
+      <nav class="main-nav" id="main-nav"></nav>
+      <div class="header-right">
+        <form class="search-box" id="search-form">
+          <input type="text" id="search-input" placeholder="Search news..." />
+        </form>
+      </div>
+      <button class="menu-toggle" id="menu-toggle">&#9776;</button>
+    </div>
+  </header>
+
+  <main class="container page-section">
+    <h1 class="page-title">AI Name Generator</h1>
+    <p>Generate creative brand, product, or project names. This tool runs 100% in your browser — no server needed.</p>
+
+    <div class="tool-box">
+      <form id="namegen-form">
+        <input type="text" id="namegen-keyword" placeholder="Enter a keyword (optional), e.g. cloud, tiger, spark" />
+        <button type="submit" class="btn">Generate Names</button>
+      </form>
+
+      <div class="tool-result" id="namegen-result">
+        <h3>Suggestions:</h3>
+        <ul class="name-list" id="namegen-list"></ul>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-col">
+        <h4>PromptLova</h4>
+        <p>Breaking news and original reporting across World, Business, Technology, Sports, and more.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Categories</h4>
+        <ul id="footer-categories"></ul>
+      </div>
+      <div class="footer-col">
+        <h4>Tools</h4>
+        <ul>
+          <li><a href="video-downloader.html">Video Downloader</a></li>
+          <li><a href="name-generator.html">Name Generator</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="../about.html">About</a></li>
+          <li><a href="../contact.html">Contact</a></li>
+          <li><a href="../privacy.html">Privacy Policy</a></li>
+          <li><a href="../terms.html">Terms</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">&copy; 2026 PromptLova. All rights reserved.</div>
+  </footer>
+
+  <script src="../../js/news.js"></script>
+  <script src="../../js/menu.js"></script>
+  <script src="../../js/search.js"></script>
+  <script src="../../js/namegen.js"></script>
+</body>
+</html>
